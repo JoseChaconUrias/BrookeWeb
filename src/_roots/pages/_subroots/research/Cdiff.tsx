@@ -73,7 +73,7 @@ const Cdiff = () => {
             <div className="flex justify-center p-4 mt-8 gap-8">
               <div>
                 <img
-                  src="/assets/cdiff-img/positiveTwitching1.jpg"
+                  src="./assets/cdiff-img/positiveTwitching1.jpg"
                   alt="photo"
                   className="h-64 w-64 outline outline-white"
                 />
@@ -84,7 +84,7 @@ const Cdiff = () => {
               
               <div>
                 <img
-                  src="/assets/cdiff-img/positive-twitching2.jpg"
+                  src="./assets/cdiff-img/positive-twitching2.jpg"
                   alt="photo"
                   className="h-64 w-64 rotate-90 outline outline-white"
                 />
@@ -93,7 +93,7 @@ const Cdiff = () => {
               
               <div>
                 <img
-                  src="/assets/cdiff-img/negative-twitching.jpg"
+                  src="./assets/cdiff-img/negative-twitching.jpg"
                   alt="photo"
                   className="h-64 w-64 outline outline-white"
                 />      
