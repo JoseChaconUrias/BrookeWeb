@@ -3,12 +3,13 @@ import "./globals.css";
 import { Home } from "./_roots/pages";
 import RootLayout from "./_roots/RootLayout";
 import Research from "./_roots/pages/Research";
-import About from "./_roots/pages/About";
 import Contact from "./_roots/pages/Contact";
 import { Cdiff, FutureResearch, ResearchLinks, Timeline } from "./_roots/pages/_subroots/research";
 import { EarlyLife } from "./_roots/pages/_subroots/about";
 import UnvisersityLife from "./_roots/pages/_subroots/about/UniversityLife";
 import SubRootLayout from "./_roots/pages/_subroots/SubRootLayout";
+import About from "./_roots/pages/About";
+import { Outlet } from "react-router-dom";
 
 
 const App = () => {
@@ -38,6 +39,10 @@ const App = () => {
           <Route path="/about/university-life" element={<UnvisersityLife />}/>
         </Route>
       </Routes>
+
+      <section>
+        <Outlet />
+      </section>
     </main>
   );
 };
