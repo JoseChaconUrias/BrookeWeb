@@ -9,8 +9,6 @@ import { EarlyLife } from "./_roots/pages/_subroots/about";
 import UnvisersityLife from "./_roots/pages/_subroots/about/UniversityLife";
 import SubRootLayout from "./_roots/pages/_subroots/SubRootLayout";
 import About from "./_roots/pages/About";
-import { Outlet } from "react-router-dom";
-
 
 const App = () => {
   return (
@@ -39,10 +37,6 @@ const App = () => {
           <Route path="/about/university-life" element={<UnvisersityLife />}/>
         </Route>
       </Routes>
-
-      <section>
-        <Outlet />
-      </section>
     </main>
   );
 };
