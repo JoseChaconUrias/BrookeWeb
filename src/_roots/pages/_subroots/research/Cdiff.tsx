@@ -7,7 +7,7 @@ import StateofPurpose from "../../../../components/StateofPurpose";
 const Cdiff = () => {
   return (
     <div className="relative flex items-center justify-center h-screen overflow-hidden">
-      <div className="absolute bg-neutral-950 left-10 right-10 top-10 bottom-0 rounded overflow-y-auto">
+      <div className="absolute bg-neutral-950 left-0 right-0 top-10 bottom-0 rounded overflow-y-auto">
         <div>
           <div className="p-8">
 
