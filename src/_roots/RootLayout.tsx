@@ -1,6 +1,5 @@
 import { Outlet } from "react-router-dom";
 import MenuBar from "../components/MenuBar";
-import TwinklingStars from "../components/TwinklingStars";
 
 const RootLayout = () => {
   return (
@@ -21,10 +20,6 @@ const RootLayout = () => {
 
       <div>
         <MenuBar />
-      </div>
-      
-      <div>
-        <TwinklingStars/>
       </div>
 
       <section>
