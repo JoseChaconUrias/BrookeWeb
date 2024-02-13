@@ -20,7 +20,7 @@ const RootLayout = () => {
 
       <video
         ref={videoRef}
-        src="assets/virusBg.mp4" autoPlay loop muted
+        src="assets/virusBg.mp4" autoPlay loop muted playsInline
         className="object-cover w-full h-full fixed top-0 left-0"
       />
 
