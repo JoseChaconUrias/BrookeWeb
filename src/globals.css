@@ -4,7 +4,7 @@
 
 @layer base {
     body {
-      @apply bg-gradient-to-t from-orange-200 via-rose-300 to-purple-700;
+      @apply bg-black;
     }
   }
   
@@ -18,9 +18,21 @@
       }
   }
     
-  .fade-in {
-      animation: fadeIn 2.0s ease-in-out;
-  }
+.fade-in {
+  animation: fadeIn 2.0s ease-in-out;
+}
+
+.fade-in-500 {
+  animation: fadeIn 2.0s ease-in-out;
+}
+
+.fade-in-500-delay {
+  animation-delay: 10s;
+}
+
+.fade-in-1000 {
+  animation: fadeIn 2.0s ease-in-out;
+}
    
   /* star animation */
   .twinkling-stars {

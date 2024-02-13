@@ -2,7 +2,7 @@ const Contact = () => {
     return (
       <>
         <div className="relative min-h-screen flex items-center justify-center">
-          <div className="absolute text-white text-center top-40 fade-in">
+          <div className="absolute text-white text-center fade-in">
             <h1 className="text-4xl mt-20">Contact Information</h1>
             <div className="mt-8">
               <p>Email: <a href="mailto:brookemccartney64@gmail.com">brookemccartney64@gmail.com</a></p>
