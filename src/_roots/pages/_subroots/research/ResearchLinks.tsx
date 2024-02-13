@@ -1,11 +1,7 @@
-import TwinklingStars from "../../../../components/TwinklingStars";
 
 const ResearchLinks = () => {
   return (
     <div className="relative flex items-center justify-center h-screen">
-      <div>
-        <TwinklingStars />
-      </div>
       <div className="absolute text-white text-center mt-12 fade-in">
         <h1 className="text-4xl">Research papers that are contributing to my research</h1>
         <div className="mt-4">
