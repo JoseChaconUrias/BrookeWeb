@@ -7,7 +7,7 @@ import StateofPurpose from "../../../../components/StateofPurpose";
 const Cdiff = () => {
   return (
     <div className="relative flex items-center justify-center h-screen overflow-hidden">
-      <div className="absolute bg-neutral-950 left-16 right-16 top-16 bottom-0 rounded overflow-y-auto">
+      <div className="absolute bg-neutral-950 left-10 right-10 top-10 bottom-0 rounded overflow-y-auto">
         <div>
           <div className="p-8">
 
@@ -70,8 +70,8 @@ const Cdiff = () => {
             </div>
 
             {/* Layout of Images */}
-            <div className="flex justify-center p-4 mt-8 gap-8">
-              <div>
+            <div className="flex justify-center p-4 mt-8 gap-4 flex-wrap">
+              <div className="md:w-1/3 flex flex-col items-center">
                 <img
                   src="./assets/cdiff-img/positiveTwitching1.jpg"
                   alt="photo"
@@ -82,7 +82,7 @@ const Cdiff = () => {
                 </h2>                   
               </div>
               
-              <div>
+              <div className="md:w-1/3 flex flex-col items-center">
                 <img
                   src="./assets/cdiff-img/positive-twitching2.jpg"
                   alt="photo"
@@ -91,7 +91,7 @@ const Cdiff = () => {
                 <h2 className="text-white text-sm flex justify-center mt-3">Positive Twitching Fg.2</h2>                
               </div>
               
-              <div>
+              <div className="md:w-1/3 flex flex-col items-center">
                 <img
                   src="./assets/cdiff-img/negative-twitching.jpg"
                   alt="photo"
