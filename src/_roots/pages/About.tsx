@@ -10,13 +10,13 @@ const About = () => {
         <div className="grid grid-cols-2 gap-8">
           <Link
             to="/about/early-life"
-            className="p-16 flex items-center justify-center outline outline-white outline-8 text-white font-bold rounded shadow-xl hover:bg-emerald-900"
+            className="p-16 flex items-center justify-center outline outline-white outline-8 text-white font-bold rounded shadow-xl hover:bg-rose-950"
           >
             Early Life
           </Link>
           <Link
             to="/about/university-life"
-            className="p-16 flex items-center justify-center outline outline-white outline-8 text-white font-bold rounded shadow-xl hover:bg-emerald-900"
+            className="p-16 flex items-center justify-center outline outline-white outline-8 text-white font-bold rounded shadow-xl hover:bg-rose-950"
           >
             University Life
           </Link>
